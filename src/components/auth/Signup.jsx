@@ -3,15 +3,17 @@ import { Link } from 'react-router-dom'
 
 function SignupPage() {
   return (
-              <div class="bg-black  h-full py-[100px] w-[100vw]  px-[3vw] flex flex-wrap md:flex-wrap gap-[25px] justify-center align-middle text-center items-center">
+  
+
+              <div class="bg-black  h-full pb-[100px] w-[100vw]  px-[3vw] justify-center align-middle text-center items-center">
+
+                <div className='h-[65px] p-2 bg-fuchsia-700 px-[20px]'>
+                    <p className='h-[45px] w-[45px] text-center text-[26px] rounded-[10px] p-[5px] bg-slate-100 hover:bg-neutral-400'> <Link to="/prehomepage">🔙</Link></p>
+                </div>
         
-        <div>
-            {/* <img src="signup.png" alt="image" class="border-2 border-solid border-red-400 mt-[100px]"/> */}
-        </div>
 
 
-
-        <div className=" h-full w-[90vw] md:w-[500px] lg:w-[40vw] p-4 rounded-[15px] text-center border  border-neutral-700">
+        <div className=" h-full w-[90vw] md:w-[500px] lg:w-[40vw] p-4 rounded-[15px] m-auto text-center border  border-neutral-700">
             <h1 className="text-neutral-200 text-[30px] font-bold">Welcome!</h1>
             <h2 className="text-[28px] text-neutral-300">Join <span className="text-fuchsia-500 font-bold">KnowShare
                 </span>Community</h2><br/>

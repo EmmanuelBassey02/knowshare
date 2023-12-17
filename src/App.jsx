@@ -1,7 +1,7 @@
 // import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/homepage/Home'
 import Homepage from './pages/homepage/Homepage'
-import MainHomepage from './pages/homepage/MainHomepage'
 import ErrorPage from './pages/Landing-pages/error'
 import Pricing from './pages/Landing-pages/pricing'
 import Resources from './pages/Landing-pages/resources'
@@ -25,8 +25,8 @@ function App() {
 {/* <Dropdown/> */}
       <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Homepage/>} />
-      <Route path='/mainhomepage' element={<MainHomepage/>} />
+      <Route path='/' element={<Home/>} />
+      <Route path='/homepage' element={<Homepage/>} />
       <Route path='/resources' element={<Resources/>} />
       <Route path='/services' element={<Services/>} />
       <Route path='/pricing' element={<Pricing/>} />

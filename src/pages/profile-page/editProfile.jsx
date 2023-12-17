@@ -3,14 +3,14 @@ import React from 'react'
 function EditProfile() {
   return (
     <>
-<section class="bg-white px-[1vw] pt-[30px] pb-[30px] h-[150vh]">
+<section class="bg-fuchsia-50  pt-[30px] pb-[30px] h-[150vh]">
 
-        <div class="bg-fuchsia-50 px-[2vw] py-[50px] flex flex-wrap gap-[20px] h-fit justify-between align-middle">
+        <div class="bg-fuchsia-50 px-[3vw] py-[50px] flex flex-wrap gap-[20px] h-fit justify-between align-middle">
 
-            <h1 class="text-[26px] p-2 bg-fuchsia-900 text-white text-center rounded-t-[15px] font-bold w-[90vw]">Edit your profile here</h1>  
+            <h1 class="text-[26px] p-2 bg-fuchsia-900 text-white text-center rounded-t-[15px] font-bold w-[94vw]">Edit your profile here</h1>  
 
                     
-                    <div class="border-2 px-[20px] pt-[20px] w-[43vw] bg-fuchsia-200  h-fit pb-[50px]  rounded-[10px]">
+                    <div class="px-[20px] pt-[20px] w-[43vw] bg-fuchsia-200  h-fit pb-[50px]  rounded-[10px]">
                         {/* <p class="font-bold text-[18px] text-left mb-[10px]">Personal details</p> */}
                         <div class="h-fit pb-[40px] rounded-[15px] bg-white p-[20px]">
                             
@@ -85,7 +85,7 @@ function EditProfile() {
 
 
             {/* <div class="border-2 border-green-500 h-[700px] w-[43vw] rounded-[15px]"> */}
-        <div class="border-2 px-[20px] pt-[20px] w-[43vw] bg-fuchsia-200  h-fit pb-[50px]  rounded-[10px]">
+        <div class="px-[20px] pt-[20px] w-[43vw] bg-fuchsia-200  h-fit pb-[50px]  rounded-[10px]">
             <div class="h-fit pb-[40px] rounded-[15px] bg-white p-[20px]">
                 <p class="font-bold sm:text-sm text-[17px]">Change profile picture</p>
                 <div class="bg-neutral-200 h-[230px] rounded-[10px] mt-[10px] p-[20px]">
