@@ -23,7 +23,7 @@ function ForgotPassword() {
                   on the link, it should take him to the ResetPassword page. */}
 
                 <Link to='/login'>
-                  <button type="button" className="bg-fuchsia-950 p-2.5 rounded-[6px] w-[100%] text-white font-bold mt-[10px]">Back</button>
+                  <button type="button" className="bg-fuchsia-950 hover:bg-fuchsia-800 p-2.5 rounded-[6px] w-[100%] text-white font-bold mt-[10px]">Back</button>
                 </Link>
               </div>
           </div>

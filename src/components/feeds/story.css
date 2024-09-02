@@ -1,0 +1,17 @@
+.story {
+    background-position: center center;
+    /* background-color: aquamarine; */
+    background: url(`${image}`);
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.73);
+}
+
+.story:hover {
+    transform: scale(1.067);
+}
+
+.h4-story{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: black
+}

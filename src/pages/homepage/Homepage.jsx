@@ -1,12 +1,24 @@
 import React from 'react'
-import SecondNavbar from '../../components/navbar/secondNav'
+// import SecondNavbar from '../../components/navbar/secondNav'
+import Header from '../../components/navbar/header'
+import Sidebar from '../../components/sidebar/sidebar'
+import Feed from '../../components/feeds/Feed'
+import Widgets from '../../components/feeds/Widgets'
 
 function Homepage() {
   return (
-    <div>
-  <SecondNavbar/>
+    <div className='bg-neutral-200'>
+       {/* <SecondNavbar/> */}
 
-   This is the main Homepage that will include the news feed, etc.
+       <Header/>
+
+        <div className='app_body flex'>
+          <Sidebar/>
+          <Feed/>
+          <Widgets/> <br />
+
+
+        </div>
 
     </div>
   )

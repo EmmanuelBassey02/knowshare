@@ -11,19 +11,21 @@ import SignupPage from './components/auth/Signup'
 import ResetPassword from './components/auth/ResetPassword'
 import ForgotPassword from './components/auth/ForgotPassword'
 import EditProfile from './pages/profile-page/editProfile'
+import ScrollToTop from '../scrollToTop'
 // import Dropdown from './components/dropdown/dropdown'
 // import UserAgreement from './pages/Landing-pages/useragreement'
 // import PrivacyPolicy from './pages/Landing-pages/privacypolicy'
-// import LoginPage from './components/auth/Login'
 // import ProfilePage from
 
 
 function App() {
 
+  
+
   return (
-    <>
-{/* <Dropdown/> */}
+       <>
       <BrowserRouter>
+      <ScrollToTop/>
     <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/homepage' element={<Homepage/>} />

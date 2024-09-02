@@ -3,7 +3,7 @@ import React from 'react'
 function EditProfile() {
   return (
     <>
-<section class="bg-fuchsia-50  pt-[30px] pb-[30px] h-[150vh]">
+<section class="bg-fuchsia-50  pb-[30px] h-[150vh]">
 
         <div class="bg-fuchsia-50 px-[3vw] py-[50px] flex flex-wrap gap-[20px] h-fit justify-between align-middle">
 

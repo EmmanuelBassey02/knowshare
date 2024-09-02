@@ -8,7 +8,7 @@ function SignupPage() {
               <div class="bg-black  h-full pb-[100px] w-[100vw]  px-[3vw] justify-center align-middle text-center items-center">
 
                 <div className='h-[65px] p-2 bg-fuchsia-700 px-[20px]'>
-                    <p className='h-[45px] w-[45px] text-center text-[26px] rounded-[10px] p-[5px] bg-slate-100 hover:bg-neutral-400'> <Link to="/prehomepage">🔙</Link></p>
+                    <p className='h-[45px] w-[45px] text-center text-[26px] rounded-[10px] p-[5px] bg-slate-100 hover:bg-neutral-400'> <Link to="/">🔙</Link></p>
                 </div>
         
 
